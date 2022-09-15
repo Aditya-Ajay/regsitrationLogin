@@ -1,0 +1,16 @@
+.expansion {
+  width: 100%;
+  margin-top: 0;
+}
+.navStyle {
+  background-color: #28292d;
+}
+.bgCss {
+  background-color: #45f4ff;
+  padding: 0.4rem;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin: 2rem;
+}

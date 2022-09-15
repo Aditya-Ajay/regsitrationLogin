@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" href="../../css/index.css">
+</head>
+<body>
+    {{>navbar}}
+	<div class="box">
+		<form autocomplete="off" action="/register" method="POST">
+			<h2>REGISTER</h2>
+			<div class="inputBox">
+				<input type="text" required="required" name ="name">
+				<span>Name</span>
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<input type="text" required="required" name ="age">
+				<span>Age</span>
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<input type="email" required="required" name ="email">
+				<span>Email</span>
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<input type="password" name ="password" required="required">
+				<span>Password</span>
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<input type="password" name ="Cpassword" required="required">
+				<span>Confirm Password</span>
+				<i></i>
+			</div>
+			
+			<input type="submit" value="Register">
+		</form>
+	</div>
+</body>
+</html
